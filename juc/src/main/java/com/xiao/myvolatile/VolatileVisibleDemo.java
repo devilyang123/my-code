@@ -45,9 +45,15 @@ public class VolatileVisibleDemo {
         // 主线程使用死循环，来验证是否能得到子线程修改后的值
         while (test.i == 0){
             // 如果没有被修改，一直等着
-//            System.out.println(1);
-            //  fixme 如果我在循环中使用了该语句，就算变量i没有被volatile修饰，主线程也能得到通知，暂不知原因，猜测是因为调用了同步方法（println是同步代码块），
-            //   底层的同步机制，会导致可见性通知
+            // System.out.println(1);
+            // （println是同步代码块）， 所以调用了该方法，就算不被volatile修饰，也会读取到最新的值
+            // 这是因为synchronized具体过程是：
+            // 获得同步锁；
+            // 清空工作内存；
+            // 从主内存拷贝对象副本到工作内存；
+            // 执行代码(计算或者输出等)；
+            // 刷新主内存数据；
+            // 释放同步锁。
         }
         System.out.println("主线程获取到修改后的值：" + test.i);
 
