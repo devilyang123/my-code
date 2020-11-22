@@ -8,3 +8,5 @@
 
 [4、cas测试代码](./src/main/java/com/xiao/atomic/CasDemo.java)
 
+[5、原子引用测试代码](./src/main/java/com/xiao/atomic/AtomicReferenceDemo.java)
+
