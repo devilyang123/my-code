@@ -11,3 +11,5 @@
 [5、原子引用测试代码](./src/main/java/com/xiao/atomic/AtomicReferenceDemo.java)
 
 [6、时间戳原子引用, ABA问题演示及解决](./src/main/java/com/xiao/atomic/AtomicStampedReferenceDemo.java)
+
+[7、线程安全之CopyOnWriteArrayList集合](./src/main/java/com/xiao/collections/CopyOnWriteArrayListDemo.java)
