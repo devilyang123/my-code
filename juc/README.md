@@ -15,3 +15,5 @@
 [7、线程安全之CopyOnWriteArrayList集合](./src/main/java/com/xiao/collections/CopyOnWriteArrayListDemo.java)
 
 [8、自旋锁验证代码](./src/main/java/com/xiao/lock/SpinLockDemo.java)
+
+[9、读写锁验证代码](./src/main/java/com/xiao/lock/ReadWriteDemo.java)
