@@ -17,3 +17,5 @@
 [8、自旋锁验证代码](./src/main/java/com/xiao/lock/SpinLockDemo.java)
 
 [9、读写锁验证代码](./src/main/java/com/xiao/lock/ReadWriteDemo.java)
+
+[10、CountDownLatch验证代码](./src/main/java/com/xiao/lock/CountDownLatchDemo.java)
