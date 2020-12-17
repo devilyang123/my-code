@@ -21,3 +21,5 @@
 [10、CountDownLatch验证代码](./src/main/java/com/xiao/lock/CountDownLatchDemo.java)
 
 [11、CyclicBarrier验证代码](./src/main/java/com/xiao/lock/CyclicBarrierDemo.java)
+
+[13、Semaphore验证代码](./src/main/java/com/xiao/lock/SemaphoreDemo.java)
